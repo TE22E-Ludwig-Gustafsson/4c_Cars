@@ -9,18 +9,11 @@ public class Main {
         Car car1 = new Car();
 
         //Give the attributes values
-        car1.name = "Hudson";
-        car1.color = "blue";
-        car1.maxSpeed = 200;
-
+        Car car1 = new Car("Blue", 200, "Hudson");
 
         //create a second car
-        Car car2 = new Car();
+        Car car2 = new Car("Brown",  100, "Mater");
 
-        //Give the attributes values
-        car2.name = "Hudson";
-        car2.color = "blue";
-        car2.maxSpeed = 200;
-    }
-
+        System.out.println(car1.name + " is " + car1.color + " and has max Speed of " + car1.maxSpeed);
+        System.out.println(car2.name + " is " + car2.color + " and has max Speed of " + car2.maxSpeed);
 }

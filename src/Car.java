@@ -4,6 +4,15 @@ public class Car {
     String name;
     int maxSpeed;
 
+    //Constructor
+    public Car(String inColor, int inMaxSpeed, String inName) {
+        color = inColor;
+        maxSpeed = inMaxSpeed;
+        name = inName;
+    }
 
-    public
+
+    public Car() {}
+
+
 }
